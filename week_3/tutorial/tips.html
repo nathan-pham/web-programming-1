@@ -6,18 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>" />
-        <title>CAMshots | Home</title>
+        <title>CAMshots | Tips</title>
+
+        <link rel="stylesheet" href="css/globals.css" />
     </head>
     <body>
         <header>
-            <img src="assets/camshots.jpg" alt="CAMshots" />
+            <img src="assets/camshots.jpg" alt="CAMshots" usemap="#logomap" />
+
+            <map name="logomap">
+                <area shape="circle" coords="82, 78, 80" href="index.html" alt="Home Page" />
+                <area shape="rect" coords="235, 120, 310, 150" href="tips.html" alt="Tips" />
+                <area shape="rect" coords="340, 120, 510, 150" href="glossary.html" alt="Glossary" />
+            </map>
         </header>
 
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Tips</li>
-                <li>Glossary</li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="index.html">Home</a></li>
+                <li class="nav__list__item"><a href="tips.html">Tips</a></li>
+                <li class="nav__list__item"><a href="glossary.html">Glossary</a></li>
             </ul>
         </nav>
 
@@ -37,7 +45,7 @@
                 </p>
 
                 <figure>
-                    <img src="thirds.jpg" alt="photo" />
+                    <img src="assets/thirds.jpg" alt="photo" />
                 </figure>
 
                 <p>
@@ -53,19 +61,19 @@
                 <p>The Web is an excellent resource for articles on photography and digital cameras. Here are a few of my favorites.</p>
 
                 <dl>
-                    <dt>&#9758; Apogee Photo</dt>
+                    <dt>&#9758; <a href="https://www.apogeephoto.com" target="_blank" rel="noreferrer">Apogee Photo</a></dt>
                     <dd>An established online photography magazine with articles by top pros, discussion forums, workshops, and more.</dd>
-                    <dt>&#9758; Outdoor Photographer</dt>
+                    <dt>&#9758; <a href="https://outdoorphotographer.com" target="_blank" rel="noreferrer">Outdoor Photographer</a></dt>
                     <dd>The premier magazine for outdoor photography. The site includes extensive tips on photographing wildlife, action sports, scenic vistas, and travel sites.</dd>
-                    <dt>&#9758; Digital Photo</dt>
+                    <dt>&#9758; <a href="https://dpmag.com" target="_blank" rel="noreferrer">Digital Photo</a></dt>
                     <dd>An excellent site for novices and professionals with informative reviews and buying guides for the latest equipment and software.</dd>
-                    <dt>&#9758; Popular Photography and Imaging</dt>
+                    <dt>&#9758; <a href="https://www.popphoto.com" target="_blank" rel="noreferrer">Popular Photography and Imaging</a></dt>
                     <dd>A useful and informative site with articles from the long-established magazine of professional and amateur photographers.</dd>
                 </dl>
             </article>
         </section>
 
-        <footer>
+        <footer class="footer">
             <address>CAMshots &#8250;&#8250;&#8250; Advice and News from the World of Digital Photography</address>
         </footer>
     </body>

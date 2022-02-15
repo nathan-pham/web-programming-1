@@ -2,22 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="author" content="Gerry Hayward" />
+        <meta name="description" content="A site for sharing information on digital photography and cameras" />
+        <meta name="keywords" content="photography, cameras, digital imaging" />
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>" />
         <title>CAMshots | Home</title>
+
+        <link rel="stylesheet" href="css/globals.css" />
     </head>
     <body>
         <header>
-            <img src="assets/camshots.jpg" alt="CAMshots" />
+            <img src="assets/camshots.jpg" alt="CAMshots" usemap="#logomap" />
+
+            <map name="logomap">
+                <area shape="circle" coords="82, 78, 80" href="index.html" alt="Home Page" />
+                <area shape="rect" coords="235, 120, 310, 150" href="tips.html" alt="Tips" />
+                <area shape="rect" coords="340, 120, 510, 150" href="glossary.html" alt="Glossary" />
+            </map>
         </header>
 
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Tips</li>
-                <li>Glossary</li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="index.html">Home</a></li>
+                <li class="nav__list__item"><a href="tips.html">Tips</a></li>
+                <li class="nav__list__item"><a href="glossary.html">Glossary</a></li>
             </ul>
         </nav>
 
@@ -26,7 +38,7 @@
                 Welcome to CAMshots, a site for people passionate about digital photography. This site has grown out of decades of photographic experience. I offer advice for both beginners and
                 advanced users. I hope you enjoy what you find, but please be considerate of the work it took to do all this. The entire site contents including all images and articles are
                 copyrighted. Please honor my work and do not copy anything without permission. If you are interested in publishing any of my images or articles or using them in other ways, please
-                contact me and we can discuss your needs. Happy Shooting!
+                <a href="mailto:phamn23@puhsd.k12.ca.us?subject=CAMshots%20Message">contact me</a> and we can discuss your needs. Happy Shooting!
             </p>
             <p>&mdash; Gerry</p>
         </section>
@@ -35,21 +47,41 @@
             <h1>Photo of the Month</h1>
 
             <figure>
-                <img src="assets/rainbow.png" alt="Photo" />
+                <a href="assets/rainbow_lg.png">
+                    <img src="assets/rainbow.png" alt="Photo" />
+                </a>
                 <figcaption><i>Colorado Double Rainbow by Watts213</i></figcaption>
             </figure>
 
-            <ul>
-                <li>Camera: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nikon D50</li>
-                <li>F-stop: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f/7.1</li>
-                <li>Exposure: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/200 sec.</li>
-                <li>Focal Length: &nbsp; 18mm</li>
-                <li>Aperture: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.6</li>
-                <li>Flash Mode: &nbsp;&nbsp;&nbsp; No flash</li>
-            </ul>
+            <table class="camera-specs">
+                <tr class="camera-specs__row">
+                    <td>Camera</td>
+                    <td>Nikon D50</td>
+                </tr>
+                <tr class="camera-specs__row">
+                    <td><a href="glossary.html#f-stop">F-stop</a></td>
+                    <td>f/7.1</td>
+                </tr>
+                <tr class="camera-specs__row">
+                    <td><a href="glossary.html#exposure">Exposure</a></td>
+                    <td>1/200 sec.</td>
+                </tr>
+                <tr class="camera-specs__row">
+                    <td><a href="glossary.html#focal-length">Focal Length</a></td>
+                    <td>18mm</td>
+                </tr>
+                <tr class="camera-specs__row">
+                    <td><a href="glossary.html#aperture">Aperture</a></td>
+                    <td>3.6</td>
+                </tr>
+                <tr class="camera-specs__row">
+                    <td><a href="glossary.html#flash-mode">Flash Mode</a></td>
+                    <td>No flash</td>
+                </tr>
+            </table>
         </aside>
 
-        <footer>
+        <footer class="footer">
             <address>CAMshots &#8250;&#8250;&#8250; Advice and News from the World of Digital Photography</address>
         </footer>
     </body>
