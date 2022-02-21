@@ -11,5 +11,5 @@ Web Programming 1 @ Sierra College
     * [Tutorial: CAMshots](/week_3/tutorial)
     * [Case: Kansas Elections](/week_3/case_3)
 * Week 4: Introduction to CSS
-    * Tutorial:
-    * Case: 
+    * [Tutorial: Cryptography](/week_4/tutorial)
+    * [Case: Sunny Acres](/week_4/case_1)
