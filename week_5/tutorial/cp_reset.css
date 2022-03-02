@@ -1,0 +1,23 @@
+body * {
+    /* these properties should be inheritted across anyways without "*" selector */
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: 1.2em;
+    list-style: none;
+    vertical-align: baseline;
+    padding: 0;
+    margin: 0;
+}
+
+article,
+aside,
+figure,
+figcaption,
+footer,
+hgroup,
+header,
+section,
+nav {
+    display: block;
+}
