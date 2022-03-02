@@ -14,5 +14,5 @@ Web Programming 1 @ Sierra College
     * [Tutorial: Cryptography](/week_4/tutorial)
     * [Case: Sunny Acres](/week_4/case_1)
 * Week 5: CSS Layouts
-    * [Tutorial: ](/week_5/tutorial)
-    * [Case: ](/week_5/case_3)
+    * [Tutorial: Interactive Trail](/week_5/tutorial)
+    * [Case: Cycling](/week_5/case_3)
