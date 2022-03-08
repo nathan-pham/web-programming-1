@@ -1,0 +1,58 @@
+.spuzzle,
+.subTable {
+    border-collapse: collapse;
+}
+
+.spuzzle th {
+    color: gray;
+    font-size: 8px;
+}
+
+.subTableWrapper {
+    border: 5px outset gray;
+    vertical-align: top;
+}
+
+.subTable {
+    height: 100%;
+    width: 100%;
+}
+
+.subTable tr td {
+    width: 40px;
+    height: 40px;
+    color: blue;
+    text-align: center;
+    vertical-align: center !important;
+}
+
+.subTable tr td.greenBox {
+    background-image: url(green.jpg);
+    background-position: center center;
+}
+
+.subTable td.goldBox {
+    background-image: url(gold.jpg);
+    background-position: center center;
+}
+
+/* Create a style rule to collapse the borders of the spuzzle and subTable tables.
+ 13. Set the font size of table header cells within the spuzzle table to 8 pixels and the 
+font color to gray.
+ 14. Set the height of table header cells within the table body row group of the spuzzle 
+table to 40 pixels.
+ 15. For table data cells within the subTable table, add the following styles: a) set the font 
+size to 20 pixels and the font color to blue; b) set the width and height to 40 pixels 
+and center the cell text both horizontally and vertically; and c) add a 1-pixel solid 
+black border around the cell.
+ 16. For table data cells nested within the goldBox class of table data cells, display the 
+background image fi le gold.jpg centered within the cell and not tiled. (Hint: Use 
+background position values of 50% for both the horizontal and vertical directions.)
+ 17. For table data cells nested within the greenBox class of data cells, set the background image to the green.jpg fi le, once again centered within the cell without 
+tiling.
+ 18. Add descriptive comments throughout your style sheet to document your work.
+ 19. Save your changes to the fi le and then reload sudoku.htm in your Web browser. 
+Verify that the layout and design of the Sudoku table resemble that shown in 
+Figure 5-54.
+ 20. Submit your completed fi les to your instructor, in either printed or electronic form, 
+as requested. */

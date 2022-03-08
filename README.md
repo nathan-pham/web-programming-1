@@ -20,4 +20,4 @@ Web Programming 1 @ Sierra College
     -   [Case: Cycling](/week_5/case_3)
 -   Week 6: Tables and Columns
     - [Tutorial: KPAF Radio Schedule](/week_6/tutorial)
-    - [Case: ](/week_6/case_1)
+    - [Case: Sudoku](/week_6/case_1)
