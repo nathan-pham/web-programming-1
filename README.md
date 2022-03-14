@@ -19,5 +19,8 @@ Web Programming 1 @ Sierra College
     -   [Tutorial: Interactive Trail](/week_5/tutorial)
     -   [Case: Cycling](/week_5/case_3)
 -   Week 6: Tables and Columns
-    - [Tutorial: KPAF Radio Schedule](/week_6/tutorial)
-    - [Case: Sudoku](/week_6/case_1)
+    -   [Tutorial: KPAF Radio Schedule](/week_6/tutorial)
+    -   [Case: Sudoku](/week_6/case_1)
+-   Week 7: Web Forms
+    -   [Tutorial: Customer Survey](/week_7/tutorial)
+    -   [Case: ](/week_7/case_1)

@@ -1,0 +1,148 @@
+#survey {
+    width: 100%;
+    height: 100%;
+}
+
+#survey .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+    margin: 10px 0 0 0;
+}
+
+#survey fieldset {
+    background-color: rgb(255, 246, 205);
+    border: 1px solid rgb(233, 69, 0);
+    width: 100%;
+}
+
+#survey legend {
+    background-color: rgb(233, 69, 0);
+    color: white;
+    padding: 3px 0px;
+    text-indent: 5px;
+    width: 100%;
+}
+
+#survey .grid label {
+    clear: left;
+    display: block;
+    padding: 3px 0px;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 4% 7px 5px;
+    width: 40%;
+}
+
+#survey .grid input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+}
+
+#survey input#state {
+    width: 50px;
+}
+
+#survey select {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+}
+
+#survey fieldset.optionGroup {
+    border-width: 0px;
+    width: fit-content;
+    float: left;
+    margin: 9px 0px;
+}
+
+#survey fieldset.optionGroup label {
+    display: inline;
+    float: none;
+    margin: 0px 3px 0px 0px;
+    width: 30px;
+}
+
+#survey fieldset.optionGroup input {
+    display: inline;
+    float: none;
+    margin: 0px 20px 0px 0px;
+    width: 20px;
+}
+
+#survey textarea {
+    display: block;
+    font-size: 0.9em;
+    float: left;
+    height: 150px;
+    margin: 10px 0px;
+    width: 50%;
+}
+
+#newsletter {
+    color: rgb(233, 69, 0);
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    width: 90%;
+}
+
+#newsletter input {
+    width: 20px;
+}
+
+#ordersPerMonth {
+    max-width: 70px;
+}
+
+#survey .grid label.sliderLabel {
+    clear: none;
+    font-size: 0.7em;
+    margin: 10px 0px;
+    text-align: center;
+    width: 10px;
+}
+
+#survey .grid input[type="range"] {
+    width: 150px;
+    margin: 12px 2px 0 2px;
+}
+
+#survey p {
+    text-align: center;
+}
+
+#survey input[type="submit"],
+#survey input[type="reset"] {
+    display: inline;
+    float: none;
+    height: 40px;
+    width: 200px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(220, 255, 220);
+}
+
+#survey input:focus:valid {
+    background: rgb(220, 255, 220) url(go.png) bottom right no-repeat;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#survey input:focus:invalid {
+    background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
