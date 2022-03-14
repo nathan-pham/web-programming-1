@@ -1,0 +1,59 @@
+#commentForm fieldset {
+    background-color: rgb(245, 245, 255);
+    margin: 15px auto;
+    padding: 10px 5px 5px 5px;
+    width: 90%;
+}
+
+.commentForm__input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#commentForm label {
+    font-size: 0.9em;
+    width: 40%;
+}
+
+#commentForm input,
+#commentForm textarea {
+    font-size: 0.9em;
+    margin: 0 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+#commentForm textarea {
+    height: 150px;
+}
+
+#commentForm button {
+    display: block;
+    clear: both;
+    margin: 5px auto;
+    width: 200px;
+    height: 30px;
+}
+
+#commentForm input:focus,
+#commentForm textarea:focus {
+    background: rgb(225, 225, 240);
+}
+
+#commentForm input:focus:valid,
+#commentForm textarea:focus:valid {
+    background: rgb(225, 240, 225);
+    background-image: url(go.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 28px 28px;
+}
+
+#commentForm input:focus:invalid,
+#commentForm textarea:focus:invalid {
+    background: rgb(240, 225, 225);
+    background-image: url(stop.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 28px 28px;
+}

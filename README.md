@@ -23,4 +23,4 @@ Web Programming 1 @ Sierra College
     -   [Case: Sudoku](/week_6/case_1)
 -   Week 7: Web Forms
     -   [Tutorial: Customer Survey](/week_7/tutorial)
-    -   [Case: ](/week_7/case_1)
+    -   [Case: Blogger News](/week_7/case_1)
