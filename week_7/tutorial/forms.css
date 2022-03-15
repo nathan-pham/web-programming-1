@@ -3,6 +3,7 @@
     height: 100%;
 }
 
+/* two column survey */
 #survey .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -11,6 +12,7 @@
     margin: 10px 0 0 0;
 }
 
+/* fieldset styles */
 #survey fieldset {
     background-color: rgb(255, 246, 205);
     border: 1px solid rgb(233, 69, 0);
@@ -25,6 +27,7 @@
     width: 100%;
 }
 
+/* input styles */
 #survey .grid label {
     clear: left;
     display: block;
@@ -84,6 +87,7 @@
     width: 50%;
 }
 
+/* join our newsletter styles */
 #newsletter {
     color: rgb(233, 69, 0);
     margin: 20px auto;
@@ -117,6 +121,7 @@
     text-align: center;
 }
 
+/* validation styles */
 #survey input[type="submit"],
 #survey input[type="reset"] {
     display: inline;

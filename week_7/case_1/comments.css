@@ -1,3 +1,4 @@
+/* comment form styles */
 #commentForm fieldset {
     background-color: rgb(245, 245, 255);
     margin: 15px auto;
@@ -5,6 +6,7 @@
     width: 90%;
 }
 
+/* input wrapper */
 .commentForm__input {
     display: flex;
     margin-bottom: 10px;
@@ -27,6 +29,7 @@
     height: 150px;
 }
 
+/* submit button styles */
 #commentForm button {
     display: block;
     clear: both;
@@ -40,6 +43,7 @@
     background: rgb(225, 225, 240);
 }
 
+/* validation styles */
 #commentForm input:focus:valid,
 #commentForm textarea:focus:valid {
     background: rgb(225, 240, 225);
