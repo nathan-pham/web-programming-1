@@ -1,0 +1,54 @@
+audio,
+video {
+    background-color: white;
+    display: block;
+    margin: 5px auto;
+    width: 95%;
+    text-align: center;
+}
+
+.marquee {
+    overflow: hidden;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto 14px auto;
+    background-color: #a27029;
+    color: #fff;
+    position: relative;
+}
+
+.marquee__fade,
+.marquee__fade-top {
+    --height: 20px;
+
+    position: absolute;
+    top: calc(100% - var(--height));
+    left: 0;
+    right: 0;
+    height: var(--height);
+    width: 100%;
+
+    background: linear-gradient(to top, #a27029 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.marquee__fade-top {
+    top: 0;
+    background: linear-gradient(to bottom, #a27029 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.marquee > p {
+    margin: 0;
+    font-family: serif;
+    font-size: 18px;
+    animation: scroll 15s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateY(400px);
+    }
+    to {
+        transform: translateY(-400px);
+    }
+}

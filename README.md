@@ -24,3 +24,6 @@ Web Programming 1 @ Sierra College
 -   Week 7: Web Forms
     -   [Tutorial: Customer Survey](/week_7/tutorial)
     -   [Case: Blogger News](/week_7/case_1)
+-   Week 8: Audio
+    -   [Tutorial: Jumbo Popcorn](/week_8/tutorial)
+    -   [Case: Roadways](/week_8/case_2)
