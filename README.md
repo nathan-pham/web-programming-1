@@ -30,3 +30,6 @@ Web Programming 1 @ Sierra College
 -   Week 9: Media Queries
     -   [Tutorial: Tree Book](/week_9/tutorial)
     -   [Case: Desert Web](/week_9/case_1)
+
+<!-- TODO: week_10 (tutorial 9, case 1) -->
+<!-- TODO: week_11 (tutorial 10, case 1) -->
