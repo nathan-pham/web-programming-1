@@ -5,7 +5,42 @@ footer {
     display: none;
 }
 
-/* 
-    NOTE: @page styles don't work
-    NOTE: styles are retained in print preview, including transforms & whatnot
-*/
+/* Setting the page breaks in the document */
+article {
+    display: block;
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+/* Styles for the h1 heading */
+h1 {
+    font-size: 28pt;
+    text-align: center;
+    width: 100%;
+}
+
+#photo1 {
+    display: block;
+    margin: 0in auto;
+    width: 4in;
+}
+
+/* Styles for the figure boxes */
+figure {
+    display: block;
+    text-align: center;
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+figure img {
+    width: 5in;
+}
+
+figure figcaption {
+    font-size: 20pt;
+}
+
+figure:last-of-type {
+    page-break-after: avoid;
+}

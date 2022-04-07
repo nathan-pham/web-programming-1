@@ -1,0 +1,26 @@
+body {
+    box-shadow: inset 10px 0px 15px rgba(211, 211, 211, 0.5),
+        inset -10px 0px 15px rgba(211, 211, 211, 0.5);
+}
+
+header nav.horizontal ul li {
+    background-color: rgb(224, 238, 238);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 2px rgba(255, 255, 255),
+        inset -5px -5px 5px rgb(147, 207, 207);
+}
+
+article {
+    box-shadow: inset 15px 15px 75px rgb(171, 171, 171),
+        5px 5px 5px rgb(101, 101, 101);
+}
+
+blockquote {
+    /* supported literally everywhere except IE https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
+    background: linear-gradient(
+        to right,
+        rgb(166, 230, 230),
+        rgb(231, 231, 231) 5%,
+        rgb(255, 255, 255) 15%
+    );
+}
