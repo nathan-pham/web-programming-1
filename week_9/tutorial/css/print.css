@@ -1,0 +1,11 @@
+/* Hide page elements that will not be printed */
+header,
+nav,
+footer {
+    display: none;
+}
+
+/* 
+    NOTE: @page styles don't work
+    NOTE: styles are retained in print preview, including transforms & whatnot
+*/
