@@ -33,6 +33,4 @@ Web Programming 1 @ Sierra College
 -   Week 10: XHTML
     -   [Tutorial: Fireworks](/week_10/tutorial)
     -   [Case: Menu](/week_10/case_1)
-
-<!-- TODO: week_10 (tutorial 9, case 1) -->
-<!-- TODO: week_11 (tutorial 10, case 1) -->
+-   Week 11: JavaScript
