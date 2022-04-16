@@ -1,0 +1,25 @@
+img {
+    border-width: 0px;
+}
+
+body {
+    background-image: url("tan.jpg");
+}
+
+dl > dt > b {
+    color: green;
+    font-family: sans-serif;
+}
+
+/* CSS utilities */
+.text-center {
+    text-align: center;
+}
+
+.text-green {
+    color: green;
+}
+
+.font-sans {
+    font-family: sans-serif;
+}
